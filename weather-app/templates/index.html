@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Information</h1>
+        <form action="/" method="post">
+            <input type="text" name="city" required placeholder="Enter a city name" class="city-input">
+            <button type="submit" class="city-button">Get Weather</button>
+        </form>
+        {% if weather %}
+        <h2>Weather in: <span>{{ weather['name'] }}</span></h2>
+        <div class="city-container">
+            <div class="weather-container">
+                <p>Temperature: <span>{{ weather['main']['temp'] }} °C</span></p>
+                <p>Weather: <span>{{ weather['weather'][0]['description'] }}</span></p>
+            </div>
+            <img src="{{ icon_url }}" alt="Weather Icon" class="weather-icon" />
+        </div>
+
+        <p class="credits">API used OpenWeather API</p>
+        
+        {% else %}
+        <p>Please enter a city to get the weather information.</p>
+        {% endif %}
+
+    </div>
+</body>
+</html>
