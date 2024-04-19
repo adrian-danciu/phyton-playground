@@ -6,7 +6,7 @@
 <br><br>
 <i>This is a repo filled with small apps made using python in my journey of learning this programming language. 
 <br>
-Feel free to inspire from my code and build try building it on your own.</i>
+Feel free to inspire from my code and try building it on your own.</i>
 <br><br>
 
 <h1>#Content</h1>
