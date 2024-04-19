@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-API_KEY = '49293b5a02efce8b20b02f71dc3f9f49'
+API_KEY = 'Your API key here'
 WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 
