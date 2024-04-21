@@ -30,6 +30,6 @@ Feel free to inspire from my code and try building it on your own.</i>
    
    <br>
      <img src="https://github.com/adrian-danciu/python-playground/assets/100218355/9ae1c285-fc99-4d6e-9ead-47157ef9f9db" alt='weather-app' style="width: 490px; height: 320px;"/>
-     ![SCR-20240421-rlgt](https://github.com/adrian-danciu/python-playground/assets/100218355/9ae1c285-fc99-4d6e-9ead-47157ef9f9db)
+ 
 
      
