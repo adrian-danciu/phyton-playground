@@ -24,3 +24,12 @@ Feel free to inspire from my code and try building it on your own.</i>
    <br>
      <img src="https://github.com/adrian-danciu/python-playground/assets/100218355/3b255fd0-76e3-4fa0-aaae-fd19b3861c7a" alt='weather-app' style="width: 490px; height: 320px;"/>
 
+<h3>#2 Classic Snake</h3>
+<h6>Python, Pygame</h6>
+   <p><i>A classic snake game that has a GAME OVER screen and a Try again button when you lose.</i></p>
+   
+   <br>
+     <img src="https://github.com/adrian-danciu/python-playground/assets/100218355/9ae1c285-fc99-4d6e-9ead-47157ef9f9db" alt='weather-app' style="width: 490px; height: 320px;"/>
+     ![SCR-20240421-rlgt](https://github.com/adrian-danciu/python-playground/assets/100218355/9ae1c285-fc99-4d6e-9ead-47157ef9f9db)
+
+     
